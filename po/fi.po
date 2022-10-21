@@ -1,0 +1,152 @@
+# translation of switchdesk.po to Finnish
+# translation of fi.po to
+# Copyright (C) 2003,2004 Free Software Foundation, Inc.
+# Paul Gampe <pgampe@redhat.com>, 2003
+# Lauri Nurmi <lanurmi@iki.fi>, 2004
+# Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-17 00:01+0200\n"
+"Last-Translator: Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>\n"
+"Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Työpöytävaihdin"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Vaihtaa työpöytäympäristöä tai ikkunointiohjelmaa"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Työpöytäasetukset on onnistuneesti päivitetty, mutta \n"
+"X-ikkunointijärjestelmä on käynnistettävä uudelleen, jotta\n"
+"muutokset tulevat voimaan.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Et ehkä halua uusien asetusten tulevan käyttöön\n"
+"yleisesti, vaan vain tällä tietokoneella.\n"
+"(Kotihakemisto voi olla NFS-liitetty, tai käytettävä\n"
+"tietokone voi olla hidas, jne.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Työpöytävaihdin on työkalu, jolla käyttäjät voivat helposti vaihtaa "
+"käytettävää työpöytää.\n"
+"\n"
+"Valitse järjestelmän oletustyöpöytä."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Saatavilla olevat työpöydät"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_Järjestelmän oletukset"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Muutos vaikuttaa vain nykyiseen näyttöön"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Työpöytäasetuksia ei voida päivittää, varmista, että paketti switchdesk "
+#~ "on asennettu järjestelmään oikein.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Muutos vaikuttaa vain nykyiseen näyttöön"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_Gnome"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Työpöydänvaihtotyökalu"

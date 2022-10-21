@@ -1,0 +1,149 @@
+# translation of id.po to 
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Paul Gampe <pgampe@redhat.com>, 2003
+# Teguh DC <dheche@songolimo.net>, 2004-2008
+# $Id: id.po,v 1.8 2008/10/02 07:37:03 transif Exp $
+msgid ""
+msgstr ""
+"Project-Id-Version: id\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-09-02 14:33+0700\n"
+"Last-Translator: Teguh DC <dheche@songolimo.net>\n"
+"Language-Team: Fedora Trans ID <fedora-trans-id@redhat.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Desktop Switcher"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Mengganti lingkungan desktop yang berbeda atau window manager"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Konfigurasi desktop anda telah berhasil diperbarui,\n"
+"akan tetapi anda harus me-restart X Window System agar\n"
+"perubahan dapat berlaku.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Anda mungkin tidak menginginkan settingan yang baru ini diberlakukan\n"
+"secara global, tapi hanya berlaku untuk komputer ini saja.\n"
+"(direktori home anda mungkin dimount mempergunakan NFS, atau\n"
+"anda mungkin memiliki komputer yang lambat, dan lain sebagainya.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Desktop Switcher adalah alat bantu agar user dapat berpindah secara mudah "
+"antara berbagai Desktop yang telah terinstal.\n"
+"\n"
+"Pilihlah desktop default untuk sistem."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Desktop yang tersedia"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "Standar _Sistem"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Perubahan hanya berlaku untuk tampilan ini"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Konfigurasi desktop anda tidak dapat diperbarui, pastikan bahwa paket "
+#~ "switchdesk telah terinstal dengan benar di mesin ini.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "Per_ubahan hanya berlaku untuk tampilan ini"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Desktop Switching Tool"

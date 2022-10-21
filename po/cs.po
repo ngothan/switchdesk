@@ -1,0 +1,149 @@
+# Czech translation of switchdesk
+# Copyright (C) 2003, 2004, 2008 switchdesk'S COPYRIGHT HOLDER
+# Copyright (C) 2004, 2008 Miloslav Trmac <mitr@volny.cz>
+# Miloslav Trmač <mitr@volny.cz>, 2003, 2004, 2008.
+# Paul Gampe <pgampe@redhat.com>, 2003
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-03 06:17+0100\n"
+"Last-Translator: Miloslav Trmač <mitr@volny.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Přepínač prostředí pracovní plochy"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Přepíná mezi různými prostředími pracovní plochy nebo správci oken"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Vaše nastavení prostředí pracovní plochy bylo úspěšně\n"
+"změněno, ale aby se změny projevily, musíte restartovat\n"
+"X Window System.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Možná nechcete, aby se nová nastavení projevila\n"
+"globálně, ale jen na tomto počítači. (Váš domovský\n"
+"adresář může být připojen přes NFS nebo sedíte\n"
+"u pomalého počítače atd.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Přepínač prostředí pracovní plochy je nástroj, který uživatelům umožňuje "
+"přepínat mezi různými nainstalovanými prostředími pracovní plochy.\n"
+"\n"
+"Vyberte prosím implicitní prostředí pracovní plochy systému."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Dostupná prostředí pracovní plochy"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_Implicitní nastavení systému"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Změny provést jen pro aktuální displej"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Vaše nastavení prostředí pracovní plochy nemůže být změněno, přesvědčte "
+#~ "se prosím, že byl v počítači správně nainstalován balíček switchdesk.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Změnit jen pro aktuální displej"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Výběr prostředí pracovní plochy"

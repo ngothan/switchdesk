@@ -1,0 +1,152 @@
+# Danish translation of switchdesk
+# Copyright (C) 2009
+# This file is distributed under the same license as the switchdesk package.
+# Keld Simonsen <keld@dkuug.dk>, 2003, 2004.
+# Kris Thomsen <lakristho@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2009-02-15 21:45+0100\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
+"Language-Team: dansk <dansk@dansk-gruppen.dk>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Skrivebordsmiljøskifter"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"Skifter mellem forskellige skrivebordsmiljøer eller vindueshåndteringer"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Indstillingerne af dit skrivebord er blevet opdateret med succes,\n"
+"men du skal genstarte X vinduesystemet for at ændringerne\n"
+"træder i kraft.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Det er ikke sikkert du ønsker, at dine nye indstillinger\n"
+"træder i kraft globalt, men kun på denne computer.\n"
+"(Din hjemmemappe er muligvis NFS monteret, eller\n"
+"du sidder måske ved en langsom computer, eller lignende.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Skrivebordsmiljø-skifteren er et værktøj som gør brugere i stand til let at "
+"skifte mellem forskellige skrivebordsmiljøer de har installeret.\n"
+"\n"
+"Vælg venligst standard skrivebordsmiljøet for dit system."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Tilgængelige skrivebordsmiljøer"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_System standarder"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Ændringer gør sig kun gældende på nuværende skærm"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Indstillingerne af dit skrivebord kunne ikke opdateres, tjek om pakken "
+#~ "switchdesk er korrekt installeret på din computer.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Ændringer gør sig kun gældende på nuværende skærm"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_Xfce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Værktøj til skift af skrivebordsmiljø"

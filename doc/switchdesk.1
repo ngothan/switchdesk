@@ -1,0 +1,32 @@
+.TH SWITCHDESK 1 "Mon Feb 14 2000"
+.UC 4
+.SH NAME
+switchdesk \- graphical and text mode interface for choosing desktop environment
+.SH SYNOPSIS
+\fBswitchdesk\fR [desktop name]
+.SH DESCRIPTION
+\fBswitchdesk\fR provides a simple method of choosing between the
+various desktop environments available under Red Hat Linux, including
+GNOME, KDE, and FVWM2.  If X Windows is running, switchdesk will
+bring up a dialog box which allows the user to choose between the
+available desktops installed on the system.  This dialog follows the
+appearance of the user's current desktop as closely as possible. If a
+desktop name (KDE, GNOME, XFce4, FVWM, WINDOWMAKER) is supplied as an argument,
+or X is not running, switchdesk can be used from the command line.
+
+.PD
+.SH "RETURN CODES"
+\fBswitchdesk\fR returns 0 on success, 1 on error.
+
+.SH FILES
+.PD 0
+.TP 20
+\fI~/.Xclients, ~/.Xclients-default\fR
+Stores the currently selected desktop.
+
+.PD
+
+.SH AUTHOR
+.nf
+Than Ngo <than@redhat.com>
+.fi

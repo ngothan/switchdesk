@@ -1,0 +1,541 @@
+# Bengali India translation of Switchdesk.
+# Copyright (C) 2004 Red Hat Inc.
+# This file is distributed under the same license as the switchdesk package.
+#
+# Jamil Ahmed <jamil@bengalinux.org>, 2004.
+# Runa Bhattacharjee <runab@redhat.com>, 2005, 2006.
+# Runa Bhattacharjee <runab@fedoraproject.org>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-13 16:24+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@fedoraproject.org>\n"
+"Language-Team: Bengali INDIA <fedora-trans-bn_IN@redhat.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Desktop Switcher"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"বিভিন্ন ডেক্সটপ এনভাইরনমেন্ট অথবা উইন্ডো পরিচালনব্যবস্থার মধ্যে পরিবর্তন করতে ব্যবহৃত"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"ডেস্কটপ কনফিগারেশন সাফল্যের সাথে পরিবর্তিত হয়েছে।\n"
+"এই পরিবর্তনগুলি প্রয়োগ করার জন্য\n"
+"X Window সিস্টেম পুনরায় আরম্ভ করা আবশ্যক।\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"নতুন বৈশিষ্ট্যাবলীগুলি সম্পূর্ণ সিস্টেমে প্রয়োগ না করে শুধুমাত্র,\n"
+"এই কম্পিউটারে প্রয়োগ করতে ইচ্ছুক হতে পারেন।\n"
+"(সম্ভবত, আপনার ব্যক্তিগত অর্থাৎ home ডিরেক্টরি NFS-এ মাউন্ট করা হয়েছে অথবা\n"
+"আপনি ধীর গতির কম্পিউটার ব্যবহার করছেন, ইত্যাদি।)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Desktop Switcher-র সাহায্যে ব্যবহারকারীরা সিস্টেমে ইনস্টল করা বিভিন্ন ডেস্কটপের "
+"মধ্যে সহজে অদল বদল করতে পারেন।।\n"
+"\n"
+"অনুগ্রহ করে সিস্টেমের জন্য ডিফল্ট ডেস্কটপ নির্বাচন করুন।"
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "উপস্থিত ডেস্কটপ"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "সিস্টেমের ডিফল্ট মান (_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "পরিবর্তনগুলি শুধুমাত্র বর্তমান প্রদর্শনের ক্ষেত্রে প্রযোজ্য"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "ডেস্কটপ কনফিগারেশন আপডেট করা যায়নি। অনুগ্রহ করে switchdesk প্যাকেজটি সঠিকভাবে "
+#~ "ইনস্টল করা হয়েছে কিনা পরীক্ষা করুন।\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "পরিবর্তনগুলি শুধুমাত্র বর্তমান প্রদর্শনের ক্ষেত্রে প্রযোজ্য (_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "ডেস্কটপ পরিবর্তনকারী টুল"
+
+#~ msgid "Server Message: \"%s\""
+#~ msgstr "সার্ভারের বার্তা: \"%s\""
+
+#~ msgid "enable debug information"
+#~ msgstr "ডিবাগ সংক্রান্ত তথ্য সক্রিয় করা হবে"
+
+#~ msgid "specify the URL of the server (default \"%default\")"
+#~ msgstr "সার্ভারের URL নির্ধারণ করুন (ডিফল্ট মান \"%default\")"
+
+#~ msgid "print information only, do not send"
+#~ msgstr "তথ্য শুধুমাত্র প্রদর্শন করা হবে, প্রেরিত হবে না"
+
+#~ msgid "specify HTTP user agent (default \"%default\")"
+#~ msgstr "HTTP ইউজার এজেন্ট নির্ধারণ করুন (ডিফল্ট \"%default\")"
+
+#~ msgid "specify HTTP timeout in seconds (default %default seconds)"
+#~ msgstr "সেকেন্ড অনুসারে HTTP-র সময়সীমা নির্ধারণ করুন (ডিফল্ট %default সেকেন্ড)"
+
+#~ msgid "Error contacting Server:"
+#~ msgstr "সার্ভারের সাথে সংযোগ করতে ব্যর্থ:"
+
+#~ msgid "Profile removed, please verify at"
+#~ msgstr "প্রোফাইল মুছে ফেলা হয়েছে, পরীক্ষা করুন"
+
+#~ msgid "(optional) Fedora Account System registration"
+#~ msgstr "(ঐচ্ছিক) Fedora অ্যাকাউন্ট ব্যবস্থায় নিবন্ধন"
+
+#~ msgid "password, will prompt if not specified"
+#~ msgstr "পাসওয়ার্ড, উল্লিখিত না হলে জিজ্ঞাসা করা হবে"
+
+#~ msgid "don't prompt to send, just send"
+#~ msgstr "প্রেরণের অনুরোধ না করে প্রেরণ করা হবে"
+
+#~ msgid "continue to send until success"
+#~ msgstr "সফল না হওয়া অবধি প্রেরিত হবে"
+
+#~ msgid ""
+#~ "this is an automated checkin, will only run if the \"smolt\" service has "
+#~ "been started"
+#~ msgstr ""
+#~ "এটি স্বয়ংক্রিয় checkin পদ্ধতি এবং শুধুমাত্র \"smolt\" পরিসেবা আরম্ভ করা হলে এটি "
+#~ "সঞ্চালিত হবে"
+
+#~ msgid ""
+#~ "Smolt set to checkin but checkins are disabled (hint: service smolt start)"
+#~ msgstr ""
+#~ "Smolt-র বৈশিষ্ট্যে checkin নির্ধারিত হলেও বর্তমানে checkin নিষ্ক্রিয় করা আছে "
+#~ "(ইঙ্গিত: service smolt start)"
+
+#~ msgid "Error:"
+#~ msgstr "ত্রুটি:"
+
+#~ msgid "Hint:"
+#~ msgstr "ইঙ্গিত:"
+
+#~ msgid "Send this information to the Smolt server? (y/n)"
+#~ msgstr "Smolt সার্ভারে এই তথ্য প্রেরিত হবে কি? (y/n)"
+
+#~ msgid "y"
+#~ msgstr "y"
+
+#~ msgid "Exiting..."
+#~ msgstr "প্রস্থান করা হচ্ছে..."
+
+#~ msgid "Retry Enabled - Retrying"
+#~ msgstr "পুনঃপ্রচেষ্টা সক্রিয় - পুনরায় প্রচেষ্টা করা হচ্ছে"
+
+#~ msgid "Could not send - Exiting"
+#~ msgstr "প্রেরণ করা যায়নি - প্রস্থান করা হচ্ছে"
+
+#~ msgid "Password:"
+#~ msgstr "পাসওয়ার্ড:"
+
+#~ msgid "Registration Failed, Try again"
+#~ msgstr "নিবন্ধন করতে ব্যর্থ, পুনরায় প্রচেষ্টা করুন"
+
+#~ msgid "To view your profile visit: %s"
+#~ msgstr "আপনার প্রোফাইল দেখতে পরিদর্শন করুন: %s"
+
+#~ msgid "_Quit"
+#~ msgstr "প্রস্থান (_Q)"
+
+#~ msgid "Quit the program without sending your hardware profile to the server"
+#~ msgstr "সার্ভারে হার্ডওয়্যার প্রোফাইল প্রেরণ না করে প্রোগ্রাম থেকে প্রস্থান করা হবে"
+
+#~ msgid "_Send"
+#~ msgstr "প্রেরণ করুন (_S)"
+
+#~ msgid "Send your hardware profile to the server."
+#~ msgstr "সার্ভারে হার্ডওয়্যার প্রোফাইল প্রেরিত হবে।"
+
+#~ msgid "Show _Privacy Policy"
+#~ msgstr "গোপনীয়তা সংক্রান্ত নিয়মনীতি প্রদর্শন (_P)"
+
+#~ msgid "Show the Smolt privacy policy."
+#~ msgstr "Smolt-র গোপনীয়তা সংক্রান্ত নিয়মনীতি প্রদর্শন।"
+
+#~ msgid "_About"
+#~ msgstr "পরিচিতি (_A)"
+
+#~ msgid "_File"
+#~ msgstr "ফাইল (_F)"
+
+#~ msgid "_Help"
+#~ msgstr "সাহায্য (_H)"
+
+#~ msgid "_My Smolt Page"
+#~ msgstr "আমার Smolt পৃষ্ঠা (_M‌)"
+
+#~ msgid "Take me to my smolt profile page"
+#~ msgstr "নিজের smolt প্রোফাইল পৃষ্ঠা পরিদর্শন করুন"
+
+#~ msgid "An error occurred while sending the data to the server."
+#~ msgstr "সার্ভারে তথ্য প্রেরণ করতে ত্রুটি।"
+
+#~ msgid ""
+#~ "The data was successfully sent.  If you need to refer to your hardware "
+#~ "profile for a bug report your UUID is \n"
+#~ "%s\n"
+#~ "stored in %s"
+#~ msgstr ""
+#~ "সাফল্যের সাথে তথ্য পাঠানো হয়েছে।  বাগ দায়ের করার উদ্দেশ্যে হার্ডওয়্যার প্রোফাইল "
+#~ "সনাক্ত করতে ব্যবহারযোগ্য UUID হল\n"
+#~ "%s\n"
+#~ "এটি %s-এ সংরক্ষিত"
+
+#~ msgid "Smolt Privacy Policy"
+#~ msgstr "Smolt-র গোপনীয়তা সংক্রান্ত নিয়মনীতি "
+
+#~ msgid "translator-credits"
+#~ msgstr "রুণা ভট্টাচার্য (runab@redhat.com)"
+
+#~ msgid "Fedora hardware profiler."
+#~ msgstr "Fedora হার্ডওয়্যার প্রোফাইল ব্যবস্থা।"
+
+#~ msgid "Copyright © 2007 Mike McGrath"
+#~ msgstr "স্বত্বাধিকার © ২০০৭ মাইক ম্যাকগ্র্যাথ"
+
+#~ msgid ""
+#~ "This program is free software; you can redistribute it and/or modify it "
+#~ "under the terms of the GNU General Public License as published by the "
+#~ "Free Software Foundation; either version 2 of the License, or (at your "
+#~ "option) any later version.\n"
+#~ "\n"
+#~ "This program is distributed in the hope that it will be useful, but "
+#~ "WITHOUT ANY WARRANTY; without even the implied warranty of "
+#~ "MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General "
+#~ "Public License for more details.\n"
+#~ "\n"
+#~ "You should have received a copy of the GNU General Public License along "
+#~ "with this program; if not, write to the Free Software Foundation, Inc., "
+#~ "675 Mass Ave, Cambridge, MA 02139, USA."
+#~ msgstr ""
+#~ "এটি একটি মুক্ত সফ্টওয়্যার; Free Software Foundation দ্বারা প্রকাশিত GNU General "
+#~ "Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন করা যাবে; লাইসেন্সের সংস্করণ "
+#~ "২ অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন কোনো সংস্করণের অধীন।\n"
+#~ "\n"
+#~ "এই প্রোগ্রাম বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু "
+#~ "এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম "
+#~ "সাধনের জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU General Public "
+#~ "License পড়ুন।\n"
+#~ "\n"
+#~ "এর সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া উচিত; না "
+#~ "থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, Inc., "
+#~ "675 Mass Ave, Cambridge, MA 02139, USA।"
+
+#~ msgid "Could not contact server: %s"
+#~ msgstr "সার্ভারের সাথে সংযোগ স্থাপন করতে ব্যর্থ: %s"
+
+#~ msgid "Could not bind to dbus.  Is dbus running?"
+#~ msgstr "dbus-র সাথে বাইন্ড করতে ব্যর্থ।  dbus বর্তমানে সক্রিয় কী?"
+
+#~ msgid ""
+#~ "Could not connect to hal, is it running?\n"
+#~ "Run \"service haldaemon start\" as root"
+#~ msgstr ""
+#~ "hal-র সাথে সংযোগ করতে ব্যর্থ, এটি কি সক্রিয় আছে?\n"
+#~ "root পরিচয়ে \"service haldaemon start\" কমান্ড ব্যবহার করুন"
+
+#~ msgid "Error contacting Server: %s"
+#~ msgstr "সার্ভারের সাথে যোগাযোগ করতে ব্যর্থ: %s"
+
+#~ msgid "Wrong version, server incapable of handling your client"
+#~ msgstr "বেঠিক সংস্করণ, সার্ভার দ্বারা আপনার ব্যবহৃত ক্লায়েন্ট পরিচালন করা সম্ভব নয়"
+
+#~ msgid "Communication with server failed"
+#~ msgstr "সার্ভারের সাথে যোগাযোগ ব্যর্থ"
+
+#~ msgid "Devices"
+#~ msgstr "ডিভাইস"
+
+#~ msgid "UUID"
+#~ msgstr "UUID"
+
+#~ msgid "OS"
+#~ msgstr "OS"
+
+#~ msgid "Default run level"
+#~ msgstr "ডিফল্ট রান-লেভেল"
+
+#~ msgid "Language"
+#~ msgstr "ভাষা"
+
+#~ msgid "Platform"
+#~ msgstr "প্ল্যাটফর্ম"
+
+#~ msgid "BogoMIPS"
+#~ msgstr "BogoMIPS"
+
+#~ msgid "CPU Vendor"
+#~ msgstr "CPU নির্মাতা"
+
+#~ msgid "CPU Model"
+#~ msgstr "CPU-র মডেল"
+
+#~ msgid "Number of CPUs"
+#~ msgstr "CPU-র সংখ্যা"
+
+#~ msgid "CPU Speed"
+#~ msgstr "CPU-র গতি"
+
+#~ msgid "System Memory"
+#~ msgstr "সিস্টেম মেমরি"
+
+#~ msgid "System Swap"
+#~ msgstr "সিস্টেম Swap"
+
+#~ msgid "Vendor"
+#~ msgstr "নির্মাতা"
+
+#~ msgid "System"
+#~ msgstr "সিস্টেম"
+
+#~ msgid "Form factor"
+#~ msgstr "ফর্ম ফ্যাক্টর"
+
+#~ msgid "Kernel"
+#~ msgstr "কার্নেল"
+
+#~ msgid "SELinux Enabled"
+#~ msgstr "SELinux Enabled"
+
+#~ msgid "SELinux Enforce"
+#~ msgstr "SELinux Enforce"
+
+#~ msgid "Unable to save UUID, continuing...\n"
+#~ msgstr "UUID সংরক্ষণ করতে ব্যর্থ, এগিয়ে যাওয়া হবে...\n"
+
+#~ msgid "Unable to determine UUID of system!\n"
+#~ msgstr "সিস্টেমের UUID নির্ধারণ করতে ব্যর্থ!\n"
+
+#~ msgid "Cannot Determine Runlevel"
+#~ msgstr "Runlevel নির্ধারণ করতে ব্যর্থ"
+
+#~ msgid "Hardware Profile"
+#~ msgstr "হার্ডওয়্যার প্রোফাইল"
+
+#~ msgid ""
+#~ "Smolt is a hardware profiler for The Fedora Project.  Submitting your "
+#~ "profile is a great way to give back to the community as this information "
+#~ "is used to help focus our efforts on popular hardware and platforms.  "
+#~ "Submissions are anonymous.  Sending your profile will enable a monthly "
+#~ "update."
+#~ msgstr ""
+#~ "Fedora Project-র অন্তর্গত Smolt হার্ডওয়্যার প্রোফাইল নির্মাণে ব্যবহৃত হবে। জনপ্রীয় "
+#~ "হার্ডওয়্যার ও প্ল্যাটফর্মের জন্য ডিভেলপমেন্ট কর্মের জন্য আপনার প্রোফাইল সংক্রান্ত তথ্য "
+#~ "প্রেরণ করে সহায়তা করুন। anonymous অর্থাৎ বিনা নামে তথ্যে প্রেরণ করুন। প্রোফাইল "
+#~ "প্রেরিত হলে প্রতি মাসে তা আপডেট করা হবে। "
+
+#~ msgid "_Send Profile"
+#~ msgstr "প্রোফাইল প্রেরণ করুন (_S)"
+
+#~ msgid "D_o not send profile"
+#~ msgstr "প্রোফাইল প্রেরণ করা হবে না (_o)"
+
+#~ msgid ""
+#~ "Are you sure you wouldn't like to send the profile?  Submitting your "
+#~ "profile is a valuable source of information for our development and can "
+#~ "help troubleshoot issues that may come up with your hardware."
+#~ msgstr ""
+#~ "আপনি কি নিশ্চিতরূপে এই প্রোফাইল প্রেরণ করতে ইচ্ছুক? ডিভেলপমেন্ট কর্মের জন্য আপনার "
+#~ "প্রেরিত প্রোফাইলের তথ্য অত্যন্ত গুরুত্বপূর্ণ ও হার্ডওয়্যার সংক্রান্ত সমস্যা সমাধানে "
+#~ "সহায়ক।"
+
+#~ msgid "_Reconsider sending"
+#~ msgstr "পুনরায় প্রেরণ করার বিবেচনা করুন (_R)"
+
+#~ msgid "_No, do not send."
+#~ msgstr "না প্রেরিত হবে না। (_N)"
+
+#~ msgid "Label"
+#~ msgstr "লেবেল"
+
+#~ msgid "Data"
+#~ msgstr "তথ্য"
+
+#~ msgid "Bus"
+#~ msgstr "বাস"
+
+#~ msgid "Driver"
+#~ msgstr "ড্রাইভার"
+
+#~ msgid "Type"
+#~ msgstr "ধরন"
+
+#~ msgid "Description"
+#~ msgstr "বিবরণ"
+
+#~ msgid ""
+#~ "Smolt will only send hardware and basic operating system information to "
+#~ "the\n"
+#~ "Fedora smolt server (smoon).  The only tie from the database to a "
+#~ "submitters\n"
+#~ "machine is the UUID.  As long as the submitter does not give out this "
+#~ "UUID\n"
+#~ "the submission is anonymous.  If at any point in time a user wants to "
+#~ "delete\n"
+#~ "their profile from the database they need only run\n"
+#~ "\n"
+#~ "    smoltDeleteProfile\n"
+#~ "\n"
+#~ "The information sent to the smolt database server should be considered "
+#~ "public\n"
+#~ "in that anyone can view the statistics, data and share machine profiles.  "
+#~ "In \n"
+#~ "many ways smolt is designed to get hardware vendors and other 3rd "
+#~ "parties'\n"
+#~ "attention.  As such, not only will this information be shared with 3rd "
+#~ "parties,\n"
+#~ "we will be using smolt as leverage to gain better support for open "
+#~ "source\n"
+#~ "drivers and better support in general.\n"
+#~ "\n"
+#~ "IP Logging:  In Fedora's smolt install all web traffic goes through a "
+#~ "proxy\n"
+#~ "server first.  This is the only place IP addresses are being logged and "
+#~ "they\n"
+#~ "are kept on that server for a period of 4 weeks at which time log "
+#~ "rotation\n"
+#~ "removes these logs.  The Fedora Project does not aggregate ip addresses "
+#~ "in\n"
+#~ "the smolt database.  These logs are private and will not be available to "
+#~ "the\n"
+#~ "general public.\n"
+#~ "\n"
+#~ "Users unhappy with this policy should simply not use smolt.  Users with\n"
+#~ "questions about this policy should contact the Fedora Infrastructure Team "
+#~ "at\n"
+#~ "admin [at] fedoraproject.org  Also remember that users can delete their\n"
+#~ "profiles at any time using \"smoltDeleteProfile\"\n"
+#~ msgstr ""
+#~ "Smolt দ্বারা Fedora smolt সার্ভার (smoon) অবধি, সিস্টেমের হার্ডওয়্যার ও মৌলিক "
+#~ "অপারেটিং সিস্টেম\n"
+#~ "সংক্রান্ত তথ্য প্রেরিত হবে।  ডাটাবেস ও তথ্য প্রেরণকারীর মেশিনের মধ্যে যোগসূত্র হল\n"
+#~ "মেশিনের UUID।  প্রেরণকারী UUID প্রকাশ না করা অবধি anonymous\n"
+#~ "তথ্য প্রেরণ ধার্য হবে। ডাটাবেস থেকে প্রোফাইল মুছে ফেলার জন্যশুধুমাত্র\n"
+#~ "নিম্নলিখিত কমান্ড প্রয়োগ করাই যথেষ্ট\n"
+#~ "\n"
+#~ "    smoltDeleteProfile\n"
+#~ "\n"
+#~ "smolt ডাটাবেসে প্রেরিত তথ্য সার্বজনীনরূপে প্রকাশ্য অর্থাৎ মেশিন সংক্রান্ত\n"
+#~ "পরিসংখ্যান, তথ্য যে কোনো ব্যক্তি পড়তে পারবেন ও মেশিনের প্রোফাইল বিনিময় করা "
+#~ "যাবে।  Smolt-র\n"
+#~ "বিন্যাসের সাহায্যে হার্ডওয়্যার বিক্রেতা ও অন্যান্য স্বতন্ত্র উদ্যোগীদের\n"
+#~ "আকর্ষিত করার প্রচেষ্টা করা হয়েছে।  এই সব তথ্য স্বতন্ত্র উদ্যোগীদের জন্য "
+#~ "প্রকাশিতকরে,\n"
+#~ "ওপেন সোর্স ড্রাইভার ও অন্যান্য সুযোগ সুবিধা বৃদ্ধির জন্য\n"
+#~ "smolt-র সাহায্য নেওয়া হবে।\n"
+#~ "\n"
+#~ "IP লগিং:  Fedora-র smolt ইনস্টলে সর্বধরনের ওয়েব ট্রাফিক প্রোক্সি সার্ভারের\n"
+#~ "মাধ্যমে বিনিময় করা হয়। শুধুমাত্র এই স্থানে IP ঠিকানা লগ করে সার্ভারের মধ্যে\n"
+#~ "৪ সপ্তাহ অবধি সংরক্ষণ করা হয় এবং এর পরে লগ-রোটেশনের সময় সংরক্ষিত\n"
+#~ "লগগুলি মুছে ফেলা হয়।  Fedora Project প্রজেক্ট দ্বারা smolt ডাটাবেসের মধ্যে ip "
+#~ "ঠিকানা\n"
+#~ "সংগৃহীত করা হয় না।  লগ ফাইলগুলির গোপনীয়তা বজায় রাখা হয় ও সর্বসাধারণের জন্য\n"
+#~ "প্রকাশিত হয় না।\n"
+#~ "\n"
+#~ "এই নিয়ম পছন্দ না হলে ব্যবহারকারীরা smolt ব্যবহার থেকে বিরত থাকতে পারেন এবং "
+#~ "এই নিয়ম সম্পর্কে\n"
+#~ "প্রশ্ন থাকলে admin [at] fedoraproject.org ঠিকানায় Fedora Infrastructure\n"
+#~ "দলের সাথে যোগাযোগ করা যাবে।  উল্লেখ্য ব্যবহারকারীরা যে কোনো সময়ে\n"
+#~ "\"smoltDeleteProfile\" ব্যবহার করে তাদের প্রোফাইল মুছে ফেলতে পারবেন।\n"
+
+#~ msgid "Run \"service haldaemon start\" as root"
+#~ msgstr "root পরিচয়ে \"service haldaemon start\" সঞ্চালন করুন"

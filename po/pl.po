@@ -1,0 +1,149 @@
+# translation of pl.po to Polish
+# Grzegorz Rajda <marius@w9.pl>, 2004.
+# Andrzej Olszewski <andrzej.olszewski@ifj.edu.pl>, 2004.
+# Piotr Drąg <piotrdrag@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2009-09-22 22:23+0200\n"
+"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"Language-Team: Polish <fedora-trans-pl@redhat.com>\n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Przełącznik środowisk"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"Przełączanie między różnymi środowiskami graficznymi lub menedżerami okien"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Konfiguracja środowisk została pomyślnie zmieniona.\n"
+"Należy ponownie uruchomić system X Window, aby wprowadzone\n"
+"zmiany zostały uwzględnione.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Można nie zastosowywać nowych ustawień\n"
+"globalnie, a jedynie do tego komputera\n"
+"(katalog domowy może być zamontowany przez\n"
+"NFS lub może komputer jest wolny itp.)."
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Przełącznik środowisk jest narzędziem, które pozwala użytkownikom na łatwe "
+"przełączanie między różnymi zainstalowanymi środowiskami graficznymi.\n"
+"\n"
+"Proszę wybrać domyślne środowisko dla systemu."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Dostępne środowiska"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr ""
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Zastosowanie zmian tylko dla bieżącego ekranu"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Konfiguracja środowisk nie została zmieniona. Proszę upewnić się, że "
+#~ "pakiet Przełącznika środowisk jest poprawnie zainstalowany.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Zastosuj zmiany tylko dla bieżącej sesji"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_Xfce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Narzędzie przełączania środowisk"

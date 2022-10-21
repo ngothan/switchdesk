@@ -1,0 +1,153 @@
+# translation of switchdesk.HEAD.te.po to Telugu
+# translation of te.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER, 2006.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD.te\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-26 20:15+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Desktop Switcher"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "విభిన్న desktop వాతావరణాలు లేదా window managerల మధ్య మార్పు"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"మీ desktop ఆకృతీకరణ విజయవంతంగా నవీకరించబడింది,\n"
+"కానీ ప్రభావితమయ్యే \n"
+" మార్పులకోసం మీరు తప్పక X Windowni పునఃప్రారంభించాలి.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"మీరు మీ కొత్త అమర్పులను \n"
+" అంతటా అనువర్తించ దలచుకోపోవచ్చు, కానీ ఈ ప్రస్తుత కంప్యూటరుకే కావచ్చు.\n"
+"(మీ home directory NFSచే మరల్చబడింది కావచ్చు, లేదా\n"
+"మీరు నెమ్మదిగా నడుస్తున్న కంప్యూటరు వాడుతుండవచ్చు, మొ.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Desktop Switcher ఒక సాధనం వినియోగదారులు సంస్థాపిచుకున్న పెక్కు Desktopల మధ్య తేలికగా మారటానికి "
+"వీలుపడుతుంది.\n"
+"\n"
+"దయచేసి కంప్యూటరుకోసం సిద్ధ desktopను ఎన్నుకోండి."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "అందుబాటులోని Desktopలు"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "విస్థరణ (_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxపెట్టి"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "సిస్టమ్ అప్రమేయాలు(_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "మార్పు ప్రస్తుత ప్రదర్శనకు మామె అనువర్తించబడుతుంది"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "మీ desktop ఆకృతీకరణ నవీకరించబడలేదు, package switchdesk మీ కంప్యూటరులో సరిగ్గా "
+#~ "సంస్థాపించబడిందో లేదో చూసుకోండి.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "మార్పు ప్రస్తుత ప్రదర్శనకు మాత్రమే అనువర్తించు (_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Desktop మార్పు సాధనం"

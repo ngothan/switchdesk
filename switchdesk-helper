@@ -1,0 +1,153 @@
+#!/usr/bin/bash
+
+# Copyright (C) 2002-2018 Red Hat, Inc.
+#
+# Authors:
+# Than Ngo <than@redhat.com>
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
+NotFound() {
+	echo "ERROR: $1 is not installed on your machine! to install $1, please type"
+	echo "dnf $2 \"$3\""
+	exit 1
+}
+
+XSESSION="$HOME/.xsession"
+XINITRC="$HOME/.xinitrc"
+
+DATADIR="/usr/share/switchdesk/"
+
+if [ "$1" = "" ]; then
+    echo "Please specify one of either Plasma, GNOME, XFCE, FVWM, IceWM or WindowMaker."
+    exit 1
+fi
+
+# set up the .Xclients variable on a per-display basis
+rm -f $HOME/.Xclients*
+if [ "$DISPLAY" != "" -a "$2" = "local" ]; then
+    if [ `echo $DISPLAY | cut -c 1` = ':' ]; then
+        SUB_XCLIENTS="$HOME/.Xclients-$HOSTNAME${DISPLAY%.*}"
+    else
+        SUB_XCLIENTS="$HOME/.Xclients-${DISPLAY%.*}"
+    fi
+else
+    SUB_XCLIENTS="$HOME/.Xclients-default"
+fi
+
+XCLIENTS="$HOME/.Xclients"
+
+# first off, check to see if they want to revert their settings
+if [ "$1" = "revert" ]; then
+    mv -f $XCLIENTS.switchdesk $XCLIENTS
+    echo "Desktop reverted to your personal settings."
+    exit 0
+fi
+
+DESKTOP=`echo $1 |tr a-z A-Z`
+case $DESKTOP in
+    KDE|KDE2)
+        [ ! -x /usr/bin/startplasma-x11 ] && NotFound KDE groupinstall "KDE Plasma Workspaces"
+        DNAME="KDE"
+        NEW_XCLIENTS="$DATADIR/Xclients.kde"
+        ;;
+    GNOME)
+        [ ! -x /usr/bin/gnome-session ] && NotFound GNOME groupinstall "GNOME Desktop Environment"
+        DNAME="GNOME"
+        NEW_XCLIENTS="$DATADIR/Xclients.gnome"
+        ;;
+    ENLIGHTENMENT|E)
+        [ ! -x /usr/bin/enlightenment ] && NotFound Enlightenment install enlightenment
+        DNAME="Enlightenment"
+        NEW_XCLIENTS="$DATADIR/Xclients.enlightenment"
+        ;;
+    FVWM)
+        [ ! -x /usr/X11R6/bin/fvwm2 -a ! -x /usr/bin/fvwm2 ] && NotFound FVWM install fvwm
+        DNAME="fvwm"
+        NEW_XCLIENTS="$DATADIR/Xclients.fvwm"
+        ;;
+    WINDOWMAKER|WMAKER)
+        [ ! -x /usr/bin/wmaker ] && NotFound WindowMaker install WindowMaker
+        DNAME="WindowMaker"
+        NEW_XCLIENTS="$DATADIR/Xclients.wmaker"
+        ;;
+    TWM)
+        [ ! -x /usr/X11R6/bin/twm -a ! -x /usr/bin/twm ] && NotFound TWM install xorg-x11-twm
+        DNAME="twm"
+        NEW_XCLIENTS="$DATADIR/Xclients.twm"
+        ;;
+    XFCE)
+        [ ! -x /usr/bin/startxfce4 ] && NotFound XFCE groupinstall XFCE
+        DNAME="xfce"
+        NEW_XCLIENTS="$DATADIR/Xclients.xfce"
+        ;;
+    FLUXBOX)
+        [ ! -x /usr/X11R6/bin/fluxbox -a ! -x /usr/bin/fluxbox ] && NotFound FLUXBOX install fluxbox
+        DNAME="fluxbox"
+        NEW_XCLIENTS="$DATADIR/Xclients.fluxbox"
+        ;;
+    ICEWM)
+        [ ! -x /usr/bin/icewm ] && NotFound ICEWM install icewm
+        DNAME="icewm"
+        NEW_XCLIENTS="$DATADIR/Xclients.icewm"
+        ;;
+    SYSTEM)
+        DNAME="System defaults"
+        ;;
+    *)
+        if [ -x "$DATADIR/Xclients.$DESKTOP" ] ; then
+          DNAME="$DESKTOP"
+          NEW_XCLIENTS="$DATADIR/Xclients.$DESKTOP"
+        elif [ -x "$DATADIR/Xclients.$1" ] ; then
+          DNAME="$1"
+          NEW_XCLIENTS="$DATADIR/Xclients.$1"
+        else
+          echo "Unknown desktop requested: $1"
+          exit 1
+        fi
+        ;;
+esac
+
+if [ "$DNAME" = "System defaults" ] ; then
+    rm -rf $HOME/.Xclients $HOME/.Xclients-default
+else
+    # otherwise, do the normal stuff.
+    if [ -e "$XSESSION" ]; then
+        echo "warning: moving $XSESSION to $XSESSION.switchdesk"
+        mv -f $XSESSION $XSESSION.switchdesk
+    fi
+
+    if [ -e "$XINITRC" ]; then
+        echo "warning: moving $XINITRC to $XINITRC.switchdesk"
+        mv -f $XINITRC $XINITRC.switchdesk
+    fi
+
+    if [ -e "$HOME/.Xclients" ]; then
+        TEST_DIFF=`diff $DATADIR/Xclients.toplevel $XCLIENTS`
+        if [ -n "$TEST_DIFF" ]; then
+            echo "saving $XCLIENTS as $XCLIENTS.switchdesk"
+            mv -f $XCLIENTS $XCLIENTS.switchdesk
+            install "$DATADIR/Xclients.toplevel" $XCLIENTS
+        fi
+    else
+        # if they have no .Xclients, give them one
+        install "$DATADIR/Xclients.toplevel" $XCLIENTS
+    fi
+    # no need to save per-display .Xclients, no other programs
+    # could have touched them but us.
+    install $NEW_XCLIENTS $SUB_XCLIENTS
+fi
+
+echo "Desktop now set up to run $DNAME."

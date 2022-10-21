@@ -1,0 +1,175 @@
+# Bangla translation of Switchdesk.
+# Copyright (C) 2004 Red Hat Inc.
+# This file is distributed under the same license as the switchdesk package.
+# Jamil Ahmed <jamil@bengalinux.org>, 2004, 2005.
+# Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Switchdesk VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2005-04-23 14:09+0600\n"
+"Last-Translator: Jamil Ahmed <jamil@bengalinux.org>\n"
+"Language-Team: Bengali <redhat-translation@bengalinux.org>\n"
+"Language: bn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "ডেস্কটপ পরিবর্তনকারী"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "বিভিন্ন ডেক্সটপ এনভায়ারনমেন্ট অথবা উইন্ডো ম্যানেজারের মধ্যে পরিবর্তনকারী"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"আপনার ডেস্কটপ কনফিগারেশন সফলভাবে পরিবর্তিত হয়েছে।\n"
+"কিন্তু এই পরিবর্তনগুলো প্রয়োগ করার জন্য আপনাকে অবশ্যই \n"
+"X Window সিস্টেম পুনরায় চালু করতে হবে।\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"আপনি নতুন বৈশিষ্ট্যাবলীগুলি সামগ্রিক ভাবে প্রয়োগ না করে শুধুমাত্র,\n"
+"এই কম্পিউটারে প্রয়োগ করতে ইচ্ছুক হতে পারেন।\n"
+"(সম্ভবত, আপনার home ডিরেক্টরি NFS-এ মাউন্ট করা রয়েছে, অথবা\n"
+"আপনি ধীরগতি সম্পন্ন কম্পিউটার ব্যবহার করছেন, ইত্যাদি।)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"ডেস্কটপ পরিবর্তনকারী ব্যবহারকারীদের কে ইনস্টলকৃত বিভিন্ন ডেস্কটপের মধ্যে সহজে "
+"পরিবর্তন করার ব্যবস্থা করে।\n"
+"\n"
+"অনুগ্রহ করে সিস্টেমের জন্য ডিফল্ট ডেস্কটপ বাছাই করুন।"
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "উপস্হিত ডেস্কটপসমূহ"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "উইন্ডোমেকার (_উ)"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "উইন্ডোমেকার (_উ)"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "এনলাইটমেন্ট [Enlightenment] (_ন)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "আইসডাব্লুএম (_আ)"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "ফ্লাক্সবক্স (_ক)"
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr ""
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "পরিবর্তনগুলো শুধুমাত্র বর্তমান ডিসপ্লের ক্ষেত্রে প্রযোজ্য"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "আপনার ডেস্কটপ কনফিগারেশন আপডেট করা যায় নি। অনুগ্রহ করে switchdesk প্যাকেজটি "
+#~ "সঠিকভাবে ইনস্টল করা হয়েছে কিনা তা পরীক্ষা করুন।\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "পরিবর্তনগুলো শুধুমাত্র বর্তমান ডিসপ্লের ক্ষেত্রে প্রযোজ্য (_প)"
+
+#~ msgid "_FVWM"
+#~ msgstr "এফভিডাব্লুএম (_ফ)"
+
+#~ msgid "_GNOME"
+#~ msgstr "গুনোম (_গ)"
+
+#~ msgid "_KDE"
+#~ msgstr "কেডিই (_ক)"
+
+#~ msgid "_TWM"
+#~ msgstr "টিডাব্লুএম (_ট)"
+
+#~ msgid "_XFce"
+#~ msgstr "এক্সএফসি (_এ)"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "ডেস্কটপ পরিবর্তনকারী টুল"
+
+#~ msgid "     OK     "
+#~ msgstr "  ঠিক আছে  "
+
+#~ msgid "Current display is "
+#~ msgstr "বর্তমানের পর্দা হচ্ছে "
+
+#~ msgid "Revert to user settings"
+#~ msgstr "ব্যবহারকারীর পূর্বের মানসমুহ"
+
+#~ msgid "Cancel"
+#~ msgstr "বাতিল"
+
+#~ msgid ""
+#~ "If you previously had your own custom\n"
+#~ ".Xclients file, it will be restored from\n"
+#~ "a backup."
+#~ msgstr ""
+#~ "আপনার যদি নিজের কাস্টম .Xclients ফাইল থাকে,\n"
+#~ "তাহলে তা ব্যাকআপ থেকে পুনর্স্থাপন হবে।"
+
+#~ msgid "&OK"
+#~ msgstr "&ঠিক আছে"
+
+#~ msgid "&Cancel"
+#~ msgstr "&বাতিল"

@@ -1,0 +1,154 @@
+# translation of ml.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ani Peter <apeter@redhat.com>, 2006.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-12 13:02+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "ഡസ്ക് ടോപ് സ്വിച്ചറ്‍"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"അനവധി ഡസ്ക്-ടോപ്പ് എന്‍വിറോണ്‍മെന്‍റുകളിലേക്ക് അല്ലെങ്കില്‍ വിന്‍ഡോ മാനേജറുകളിലേക്ക് മാറുവാന്‍ "
+"സഹായിക്കുന്നു"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"നിങ്ങളുടെ ഡസ്ക്-ടോപ്പ് കോണ്‍ഫിഗറേഷന്‍ വിജയകരമായി പുതുക്കിയിരിക്കുന്നു.\n"
+"താങ്ങള്‍ വരുത്തിയിരിക്കുന്ന മാറ്റങ്ങള്‍ നിലവില്‍ വരുവാന്‍ X വിന്‍ഡോ\n"
+"വീണ്ടും ആരംഭിക്കുക. \n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"നിങ്ങള്‍ക്ക് നിങ്ങളുട കംപ്യൂട്ടറില്‍ മാത്രം ഈ പുതിയ മാറ്റങ്ങള്‍\n"
+"വരുത്തിയാല്‍ മതിയാകും. (നിങ്ങളുടെ ഹോം ഡയറക്ടറി\n"
+"ഒന്നുകില്‍ NFS മൌണ്ട് ചെയ്തിട്ടുണ്ടാവാം അല്ലെങ്കില്‍\n"
+"നിങ്ങളുടെ കംപ്യൂട്ടറിന്‍റെ വേഗത കുറവാകാം.)."
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"ഇന്‍സ്റ്റോള്‍ ചെയ്തിട്ടുളള അനവധി ഡസ്ക്-ടോപ്പുകളിലേക്ക് ആയാസമായി മാറുന്നതിന് ഉപയോക്താക്കളെ "
+"സഹായിക്കുന്ന ഒരു സംവിധാനമാണ് ഡസ്ക്-ടോപ്പ് സ്വിച്ചര്‍.\n"
+"\n"
+"ദയവായി കംപ്യൂട്ടറ്‍ നിശ്ചയിച്ചിട്ടുളള ഡസ്ക്-ടോപ്പ് തിരഞ്ഞെടുക്കുക."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "ലഭ്യമായ ഡസ്ക്ടോപുകള്‍"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "ജാലകസൃഷ്ടാവ്(_W)"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "ജാലകസൃഷ്ടാവ്(_W)"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "എന്‍ലൈറ്റ്മെന്‍റ്(_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "ഫ്ലക്സ്ബോക്സ്(_l)"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_സിസ്റ്റം ഡീഫോള്‍ട്ടുകള്‍"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "നിലവില്‍ ദൃശ്യമാകുന്നതിന് മാത്രമേ മാറ്റം ബാധകമാകൂ"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "നിങ്ങളുടെ ഡസ്ക്ക്ടോപ്പ് കോണ്‍ഫിഗറേഷന്‍ പരിഷ്കരിക്കുവാന്‍ സാധിക്കുന്നില്ല, സ്വിച്ച്ഡസ്ക്ക് എന്ന "
+#~ "പാക്കേജ് നിങ്ങളുടെ കംപ്യൂട്ടറില്‍ ശരിയായി ഇന്‍സ്റ്റോള്‍ ചെയ്തിരിക്കുന്നു എന്ന് ഉറപ്പ് വരുത്തുക.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "നിലവില്‍ ദൃശ്യമാകുന്നതിന് മാത്രമേ മാറ്റം ബാധകമാകൂ(_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "ഡസ്ക്ടോപ് സ്വിച്ചിംഗ് ടൂള്‍"

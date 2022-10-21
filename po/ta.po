@@ -1,0 +1,158 @@
+# translation of switchdesk.HEAD.ta.po to Tamil
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Jayaradha N <jaya@pune.redhat.com>, 2004.
+# Jayaradha N <njaya@redhat.com>, 2004.
+# Felix <ifelix@redhat.com>, 2006.
+# I. Felix <ifelix@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD.ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-15 23:10+0530\n"
+"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "பணிமேடை மாற்றி"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "பல்வேறு பணிமேடை சூழல்கள் அல்லது சாளர மேலாளர்களுக்குள் மாற்றுகிறது"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"உங்கள் பணிமேடை கட்டமைப்பு வெற்றிகரமாக மேம்படுத்தப்பட்டது,\n"
+"ஆனால் அதன் மாற்றங்களை கொண்டு வர X விண்டோ அமைப்பை\n"
+"மீண்டும் துவக்க வேண்டும்.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"உங்கள் புதிய அமைவுகளை முழுவதும் பயன்படுத்த தேவையில்லை,\n"
+"ஆனால் தற்போதைய கணினிக்கு பயன்படுத்தியாக வேண்டும்\n"
+"(உங்கள் இல்ல அடைவில் NFS ஏற்றப்பட்டிருக்கலாம் அல்லது \n"
+"நீங்கள் மெதுவாக இயங்கும் கணினியைப் பயன்படுத்தலாம்)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"பணிமேடை மாற்றி என்பது, பயனர் நிறுவி இருக்கும் பல்வேறு பணிமேடைகளை மாற்றிக்கொள்ள "
+"பயன்படும் ஒரு கருவியாகும்\n"
+"\n"
+"உங்கள் கணினிக்கு முன்னிருப்பு பணிமேடையை தேர்ந்தெடுக்கவும்."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "இருக்கும் பணிமேடைகள்"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "தெளிவுபடுத்துதல் (_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "கணினி முன்னிருப்புகள் (_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "மாற்றங்கள் தற்போதைய காட்சிக்கு மட்டுமே பொருந்தும்"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "உங்கள் பணிமேடை கட்டமைப்பை மேம்படுத்த முடியவில்லை, எனவே, switchdesk தொகுப்பு உங்கள் "
+#~ "கணினியில் சரியாக நிறுவப்பட்டுள்ளதா என சரிபார்க்கவும்.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "மாற்றம் தற்போதைய காட்சிக்கு மட்டும் பொருந்தும் (_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "பணிமேடை மாற்றும் கருவி"

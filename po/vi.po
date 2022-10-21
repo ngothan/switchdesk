@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2003-04-12 02:40+0700\n"
+"Last-Translator: Đinh Quang Ninh <dinhquangninh@hcm.fpt.vn>\n"
+"Language-Team: Vietnamese <gnomevi-list@sourceforge.net>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Trình chuyển đổi Desktop"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Chuyển đổi giữa Desktop hoặc Window managers"
+
+#: ../switchdesk.glade.h:1
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Thiết lập Desktop của bạn đã được cập nhật thành công, nhưng bạn phải khởi "
+"động lại hệ thống X Window để thay đổi có hiệu lực."
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Bạn có thể không muốn áp dụng thiết lập mới trên toàn hệ thống mà chỉ áp "
+"dụng cho máy tính hiện tại. (Thư mục nhà của bạn có thể được liên kết dạng "
+"NFS, hoặc bạn có thể đang sử dụng một máy tính yếu, v.v..)"
+
+#: ../switchdesk.glade.h:5
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Trình chuyển đổi Desktop là một công cụ cho phép người dùng dễ dàng chuyển "
+"đổi Desktop đã được cài đặt"
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr "Vui lòng chọn Desktop mặc định cho hệ thống"
+
+#: ../switchdesk.glade.h:7
+msgid "Available desktops:"
+msgstr "Các Desktop hiện có:"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+msgid "Tab Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:12
+msgid "Window Maker"
+msgstr ""
+
+#: ../switchdesk.glade.h:13
+msgid "Enlightenment window manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+msgid "IceWM"
+msgstr ""
+
+#: ../switchdesk.glade.h:16
+msgid "Fluxbox"
+msgstr ""
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr ""
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Thay đổi chỉ áp dụng cho display hiện tại"

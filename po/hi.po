@@ -1,0 +1,154 @@
+# translation of switchdesk.HEAD.hi.po to Hindi
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Rajesh Ranjan <rranjan@redhat.com>, 2004, 2005, 2006, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD.hi\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-24 12:36+0530\n"
+"Last-Translator: Rajesh Ranjan <rranjan@redhat.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "डेस्कटॉप स्विचक"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "विभिन्न डेस्कटॉप वातावरण या विंडो प्रबंधक के बीच स्विच करता है"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"आपका डेस्कटॉप विन्यास सफलतापूर्वक अद्यतन किया गया,\n"
+"मगर परिवर्तनों को जीवंत करने के लिए आपको X विन्डो सिस्टम को\n"
+"अवश्य पुन:आरंभ करना है.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"आप यह नहीं चाहते कि अपनी नई जमावट को वैश्विक\n"
+"रूप से प्रयोग हो, मगर सिर्फ इस कंप्यूटर पर करें.\n"
+"(आपकी 'गृह' निर्देशिका NFS आरोहित है,या आप एक\n"
+"धीमा कंप्यूटर का प्रयोग कर रहा है, आदि)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"डेस्कटॉप स्विचक एक उपकरण है जो उपभोक्ताओं को विभिन्न डेस्कटॉप के बीच आसानी से स्विच करने "
+"योग्य बनाता है जिसे उन्होंने अधिष्ठापित किया है.\n"
+"\n"
+"कृपया सिस्टम के लिए मूलभूत डेस्कटॉप चुनें."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "उपलब्ध डेस्कटॉप"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "पुनर्जागरण (_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "फ्लक्सबाक्स (_l)"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "सिस्टम मूलभूत (_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "सिर्फ वर्तमान प्रदर्शन के लिए ही परिवर्तन है"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "आपका डेस्कटॉप विन्यास अद्यतन नहीं किया जा सकता है, कृपया यह निश्चित करें कि संकुल "
+#~ "स्विचडेस्क मशीन पर सही ढ़ंग से अधिष्ठापित है.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "परिवर्तन सिर्फ वर्तमान प्रदर्शन के लिए लागू है (_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "FVWM (_F)"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "डेस्कटॉप स्विचिंग उपकरण"

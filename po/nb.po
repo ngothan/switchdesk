@@ -1,0 +1,146 @@
+# Norwegian bokmål translation of switchdesk.
+# Paul Gampe <pgampe@redhat.com>, 2003
+# Kjartan Maraas <kmaraas@broadpark.no>, 2008
+msgid ""
+msgstr ""
+"Project-Id-Version: no\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-13 14:02+0100\n"
+"Last-Translator: Kjartan Maraas <kmaraas@broadpark.no>\n"
+"Language-Team:  <i18n-nb@lister.ping.uio.no>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Skrivebordsvelger"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Bytter mellom ulike skrivebordsmilj� eller vindush�ndterere"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Skrivebordskonfigurasjonen din er oppdatert, men du må\n"
+"starte X på nytt for at endringene skal tre i kraft.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Du vil kanskje ikke at de nye innstillingene\n"
+"skal gjelde globalt, men kun på denne maskinen\n"
+"(I tilfelle NFS-montert hjemmekatalog, eller en\n"
+"treg datamaskinmaskin osv)."
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Skrivebordsvelgeren er et verktøy som lar brukere bytte mellom forskjellige "
+"installerte skrivebordsmiljøer på en enkel måte.\n"
+"\n"
+"Velg forvalgt skrivebord for systemet."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Tilgjengelige skrivebordsmiljø"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IcwWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "Forvalg for _systemet"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Endringene gjelder bare denne skjermen"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Skrivebordskonfigurasjonen din kunne ikke oppdateres. Sjekk at pakken "
+#~ "«switchdesk» er installert på maskinen.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Endringene gjelder bare denne skjermen"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Skrivebordsvelger"

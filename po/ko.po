@@ -1,0 +1,115 @@
+# translation of switchdesk.HEAD.po to Korean
+#
+# Michelle Kim <mkim@redhat.com>, 2002.
+# root <hkim@hostway.co.kr>, 2004.
+# David Sungmin Joo <djoo@redhat.com>, 2004.
+# Michelle J Kim <mkim@redhat.com>, 2004.
+# Eunju Kim <eukim@redhat.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-04-02 22:22+1000\n"
+"Last-Translator: Eunju Kim <eukim@redhat.com>\n"
+"Language-Team: Korean <ko@li.org>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "데스크탑 교체 관리자"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr ""
+"desktop 환경들 또는 window 관리자들을 다른 것으로(machine에 설치된 다른 "
+"desktop환경  또는 window관리자) 전환 해준다."
+
+#: ../switchdesk.glade.h:1
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"데스크탑이 설정이 성공적으로 변경되었습니다. 변경하신 데스크탑을 사용하시려"
+"면, X 윈도우즈를 재시작 하셔야 합니다."
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"새로운 설정이 전체에 적용되지 않고 현재 컴퓨터에만 적용되길 원하실 경우가 있"
+"습니다. (홈 디렉토리가 NFS 마운트되었거나, 또는 사용하시는 컴퓨터가 매우 느"
+"릴 경우, 등)"
+
+#: ../switchdesk.glade.h:5
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Desktop Switcher 은 사용자들이 설치해 놓은 다양한 Desktop들을 쉽게 교체할수 "
+"있도록 해주는 도구 입니다 시스템을 위한 기본 desktop을 선택해 주시기 바랍니"
+"다."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr "시스템의 기본 바탕 화면을 선택하십시오."
+
+#: ../switchdesk.glade.h:7
+msgid "Available desktops:"
+msgstr "사용가능한 데스크탑들:"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+msgid "Tab Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:12
+msgid "Window Maker"
+msgstr ""
+
+#: ../switchdesk.glade.h:13
+msgid "Enlightenment window manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+msgid "IceWM"
+msgstr "IceWM"
+
+#: ../switchdesk.glade.h:16
+msgid "Fluxbox"
+msgstr ""
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr "시스템 기본값"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "현재 시스템에만 적용"

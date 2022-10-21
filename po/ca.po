@@ -1,0 +1,177 @@
+# Catalan translations for switchdesk package.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# This file is distributed under the same license as the switchdesk package.
+# Isabel Cama <C.GOMEZ.FEBREL@terra.es>, 2003.
+# Josep Puigdemont <baldrick@terra.es>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-09-20 05:08+0200\n"
+"Last-Translator: Josep Puigdemont <baldrick@terra.es>\n"
+"Language-Team: Catalan <fedora@softcatala.net>\n"
+"Language: ca\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Canviador d'escriptori"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Canvia entre diferents entorns d'esciptori o gestors de finestres"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"La configuració de l'escriptori s'ha actualitzat amb èxit, \n"
+"però heu de tornar a iniciar el sistema de finestres X perquè\n"
+"els canvis tinguin efecte.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr "D'acord"
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Potser no voleu que s'apliquin els nous paràmetres\n"
+"a tot arreu, sinó només en l'ordinador actual.\n"
+"(Potser el directori d'usuari està muntat amb NFS, o\n"
+"esteu treballant amb un ordinador lent, etc.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"El canviador d'escriptori és una eina que facilita als usuaris el canvi "
+"entre escriptoris instal·lats.\n"
+"\n"
+"Seleccioneu l'escriptori per defecte d'aquest sistema."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Escriptoris disponibles"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_Predeterminat del sistema"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "El canvi només s'aplica a la pantalla actual"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "No es pot actualitzar la configuració de l'escriptori, assegureu-vos que "
+#~ "el paquet switchdesk hagi estat correctament instal·lat.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "El _canvi només s'aplica a la pantalla actual"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Canviador d'escriptori"
+
+#~ msgid "     OK     "
+#~ msgstr "      D'acord"
+
+#~ msgid "Current display is "
+#~ msgstr "La pantalla actual és"
+
+#~ msgid "Revert to user settings"
+#~ msgstr "Tornar als paràmatres d'usuari"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel·la"
+
+#~ msgid ""
+#~ "If you previously had your own custom\n"
+#~ ".Xclients file, it will be restored from\n"
+#~ "a backup."
+#~ msgstr ""
+#~ "Si abans teníeu un fitxer personalitzat\n"
+#~ " .Xclients, es recuperarà de\n"
+#~ "la còpia de seguretat."
+
+#~ msgid "&OK"
+#~ msgstr "&D'acord"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Cancel·la"

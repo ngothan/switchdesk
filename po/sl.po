@@ -1,0 +1,180 @@
+# translation of sl.po to slovenščina
+# SLOVENIAN TRANSLATION OF SWITCHDESK.
+# Copyright (C) 2001,2003,2004 Free Software Foundation, Inc.
+# $Id: sl.po,v 1.8 2004/04/08 15:22:54 rokpapez Exp $
+# $Source: /cvs/elvis/switchdesk/po/sl.po,v $
+# Roman Maurer <roman@lugos.si>, 2001.
+# Paul Gampe <pgampe@redhat.com>, 2003
+# Rok Papez <rok.papez@lugos.si>, 2004
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2004-04-08 17:29+0200\n"
+"Last-Translator: Rok Papez <rok.papez@lugos.si>\n"
+"Language-Team: slovenščina <translation-team-sl@lists.sourceforge.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.0\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Preklopnik med namizji"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Preklaplja med različnimi namizji ali upravljalniki oken"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Prikrojitev vašega namizja je bila uspešno osvežena,\n"
+"a preden spremembe začnejo zares veljati, morate\n"
+"znova zagnati Okna X.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr "V redu"
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Morda novih nastavitev ne boste želeli uveljaviti\n"
+"globalno, pač pa le v tem računalniku. (Lahko\n"
+"imate domači imenik priklopljen prek NFS, ali\n"
+"imate počasen računalnik ... )"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Preklopnik med omizji je orodje za preprosto preklaplanje med različnimi "
+"nameščenimi namizji.\n"
+"\n"
+"Izberite privzeto namizje."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Dostopna namizja"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr ""
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Sprememba se nanaša le na trenutni zaslon"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Prikrojitev vašega namizja ne more biti osvežena, preverite pravilnost "
+#~ "namestitve paketa switchdesk.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Sprememba se nanaša le na trenutni zaslon"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Preklopnik Med Namizji"
+
+#~ msgid "     OK     "
+#~ msgstr "   V redu   "
+
+#~ msgid "Current display is "
+#~ msgstr "Trenutni zaslon je "
+
+#~ msgid "Revert to user settings"
+#~ msgstr "Obnovi uporabnikove nastavitve"
+
+#~ msgid "Cancel"
+#~ msgstr "Prekliči"
+
+#~ msgid ""
+#~ "If you previously had your own custom\n"
+#~ ".Xclients file, it will be restored from\n"
+#~ "a backup."
+#~ msgstr ""
+#~ "Če ste prej imeli prilagojeno datoteko\n"
+#~ ".Xclients, jo boste morali obnoviti iz\n"
+#~ "rezervne kopije."
+
+#~ msgid "&OK"
+#~ msgstr "&V redu"
+
+#~ msgid "&Cancel"
+#~ msgstr "&Prekliči"

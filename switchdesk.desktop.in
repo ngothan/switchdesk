@@ -1,0 +1,9 @@
+[Desktop Entry]
+X-Desktop-File-Install-Version=0.16
+Categories=Settings;System;
+_Name=Desktop Switcher
+_Comment=Switches between different desktop environments or window managers
+Terminal=false
+Exec=switchdesk
+Icon=switchdesk
+Type=Application

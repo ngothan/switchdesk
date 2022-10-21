@@ -1,0 +1,153 @@
+# translation of switchdesk.HEAD.or.po to Oriya
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Subhransu Behera <sbehera@redhat.com>, 2006.
+# saroj kumar padhy <saroz.kumar@gmail.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.HEAD.or\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-04-22 12:48+0530\n"
+"Last-Translator: saroj kumar padhy <saroz.kumar@gmail.com>\n"
+"Language-Team: Oriya <oriya-group@lists.sarovar.org>\n"
+"Language: or\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "ଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତକ"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "ବିଭିନ୍ନ ଡେସ୍କଟପ୍ ପରିବେଶ କିମ୍ବା ଓ୍ବିଣ୍ଡୋ ପରିଚାଳକ ମଦ୍ଧ୍ଯ ରେ ପରିବର୍ତ୍ତନ କରୁଅଛି"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"ଆପଣଙ୍କ ଡେସ୍କଟପ୍  ର ବିନ୍ଯାସ ସଫଳତା ର ସହିତ ଅଦ୍ଯତନ ହୋଇଛି ,\n"
+"କିନ୍ତୁ ପରିବର୍ତ୍ତନ ଟି ଦ୍ରୁଷ୍ଟବ୍ଯ ହେବା ପାଇଁ ଆପଣ X ଓ୍ବିଣ୍ଡୋ ତନ୍ତ୍ର କୁ\n"
+"ପୁନଃପ୍ରାରମ୍ଭ କରିବା ଉଟିତ\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"ଆପଣ ଆପଣଙ୍କ ର ନୂତନ ବିନ୍ଯାସ କୁ ସାମଗ୍ରିକ ଭାବେ ପ୍ରୟୋଗ କରିବା ପାଇଁ ଚାହିଁ ନ ପାରନ୍ତି,\n"
+"କିନ୍ତୁ କେବଳ ଏହି କମ୍ପ୍ଯୁଟର ପାଇଁ (ଆପଣଙ୍କ ର ହୋମ୍ ଡିରେକ୍ଟୋରି ଟି NFS ଦ୍ବାରା ସ୍ଥାପିତ ହୋଇଥାଇ ପାରେ, \n"
+"କିମ୍ବା ଆପଣ ଗୋଟିଏ ମନ୍ଥର କମ୍ପ୍ଯୁଟର ରେ ବସିଛନ୍ତି, ଇତ୍ଯାଦି)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"ଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତକ ଟି ଗୋଟିଏ ଏପରି ସାଧନ ଯାହାକି ଚାଳକ ସ୍ଥାପନ କରିଥିବା ବିଭିନ୍ନ ଡେସ୍କଟପ୍ ମଦ୍ଧ୍ଯ ରେ "
+"ପରିବର୍ତ୍ତନକରିବା ପାଇଁ ଚାଳକ କୁ ସାମର୍ଥିକରଣ ପ୍ରଦାନ କରିଥାଏ \n"
+"\n"
+"ଦୟାକରି ତନ୍ତ୍ର ଟି ପାଇଁ ପୂର୍ବନିର୍ଦ୍ଧାରିତ ଡେସ୍କଟପ୍ କୁ ଚୟନ କରନ୍ତୁ"
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "ଉପଲବ୍ଧ ଡେସ୍କଟପ୍"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "ଓ୍ବିଣ୍ଡୋ ର ସ୍ରଷ୍ଟା(_W)"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "ଓ୍ବିଣ୍ଡୋ ର ସ୍ରଷ୍ଟା(_W)"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "ଆଲୋକପାତ(_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "ଆଇସ୍.ଡବଲ୍ଯୁ.ଏମ୍.(_I)"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "ଲକ୍ସ ବାକ୍ସ (_l)"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "ତନ୍ତ୍ର ପୂର୍ବନିର୍ଦ୍ଧାରିତ ବିନ୍ଯାସଗୁଡିକ(_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "ପରିବର୍ତ୍ତନ ଟି କେବଳ ବର୍ତମାନ ର ପ୍ରଦର୍ଶନ ପାଇଁ ପ୍ରୟୋଗ ହୋଇଛି"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "ଆପଣଙ୍କ ଡେସ୍କଟପ୍  ର ବିନ୍ଯାସ ଅଦ୍ଯତନ ହୋଇ ପାରିବ ନାହିଁ, ଦୟାକରି ଏହା ନିଶ୍ଚିତ ହୁଅନ୍ତୁ ଯେପ୍ଯାକେଜ୍ "
+#~ "ସୁଇଚ୍ ଡେସ୍କ ଟି ତନ୍ତ୍ର ରେ ସଠିକ ଭାବରେ ସ୍ଥାପନ ହୋଇଛି\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "ପରିବର୍ତ୍ତନ(_C) ଟି କେବଳ ବର୍ତମାନ ର ପ୍ରଦର୍ଶନ ପାଇଁ ପ୍ରୟୋଗ ହୋଇଛି"
+
+#~ msgid "_FVWM"
+#~ msgstr "ଏଫ୍.ଭି.ଡବଲ୍ଯୁ.ଏମ୍.(_F)"
+
+#~ msgid "_GNOME"
+#~ msgstr "ଜି.ନୋମ୍.(_G)"
+
+#~ msgid "_KDE"
+#~ msgstr "କେ.ଡି.ଇ.(_K)"
+
+#~ msgid "_TWM"
+#~ msgstr "ଟି.ଡବଲ୍ଯୁ.ଏମ୍.(_T)"
+
+#~ msgid "_XFce"
+#~ msgstr "ଏକ୍ସ.ଏଫ୍.ସି.(_X)"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "ଡେସ୍କଟପ୍ ପରିବର୍ତ୍ତନ ର ସାଧନ"

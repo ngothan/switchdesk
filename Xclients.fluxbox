@@ -1,0 +1,12 @@
+#! /bin/bash
+# (c) 2000-2004 Red Hat, Inc.
+
+WM="startfluxbox"
+WMPATH="/usr/bin /usr/X11R6/bin /usr/local/bin"
+
+for p in $WMPATH ; do
+	[ -x $p/$WM ] && exec $p/$WM
+	[ -x $p/fluxbox ] && exec $p/fluxbox
+done
+
+exit 1

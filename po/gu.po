@@ -1,0 +1,158 @@
+# translation of switchdesk.gu.po to Gujarati
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Ankit Patel <ankit@redhat.com>, 2004, 2005, 2006, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk.gu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-03-12 18:05+0530\n"
+"Last-Translator: Ankit Patel <ankit@redhat.com>\n"
+"Language-Team: Gujarati <fedora-trans-gu@redhat.com>\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "ડેસ્કટોપ બદલનાર"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "વિવિધ ડેસ્કટોપ પર્યાવરણો અથવા વિન્ડો વ્યવસ્થાપકો વચ્ચે ફેરબદલી કરે છે"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"તમારુ ડેસ્કટોપ રુપરેખાંકન સફળતાપૂર્વક સુધારાઈ ગયું,\n"
+"પરંતુ તમારે બદલાવોને અસરકારક બનાવવા માટે X વિન્ડો\n"
+"સિસ્ટમ ચલાવવી જ પડશે.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"તમે તમારા નવા સુયોજનો લાગુ કરી શકતા નથી,\n"
+"પરંતુ માત્ર આ કમ્પ્યુટર પર જ.\n"
+"(તમારી ઘર ડિરેક્ટરી NFS થી માઉન્ટ થયેલી હશે, અથવા\n"
+"તમે ધીમા કમ્પ્યુટર આગળ બેઠા હશો, વગેરે.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"ડેસ્કટોપ બદલનાર સાધન કે જે વપરાશકર્તાઓને વિવિધ ડેસ્કટોપ વચ્ચે બદલવા માટે સક્રિય કરે છે કે "
+"જેઓ સ્થાપિત હોય.\n"
+"\n"
+"મહેરબાની કરીને સિસ્ટમ માટે મૂળભૂત ડેસ્કટોપ પસંદ કરો."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "ઉપ્લબ્ધ ડેસ્કટોપ"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "વિન્ડો બનાવનાર (_W)"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "વિન્ડો બનાવનાર (_W)"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "એનલાઈટમેન્ટ (_E)"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "ફ્લક્સબોક્સ (_l)"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "સિસ્ટમ મૂળભૂતો (_S)"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "બદલાવો માત્ર વર્તમાન ડિસ્પ્લેને લાગુ પડે છે"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "તમારું ડેસ્કટોપ રુપરેખાંકન સુધારી શકાતું નથી, મહેરબાની કરીને ખાતરી કરો કે પેકેજ "
+#~ "switchdesk તમારા મશીન પર યોગ્ય રીતે સ્થાપિત છે ને.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "બદલાવો માત્ર વર્તમાન ડિસ્પ્લે પર જ લાગુ પડે છે (_C)"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "જીનોમ (_G)"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "ડેસ્કટોપ બદલતું સાધન"

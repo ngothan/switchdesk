@@ -1,0 +1,151 @@
+# Romanian translation of switchdesk.
+# Copyright (C) 2006 switchdesk
+# This file is distributed under the same license as the switchdesk package.
+# Alexandru Szasz <alexxed@gmail.com>, 2006.
+# , fuzzy
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk cvs\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2006-11-19 20:55+0200\n"
+"Last-Translator: Alexandru Szasz <alexxed@gmail.com>\n"
+"Language-Team: Romanian <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Computator spaţii de lucru"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Comută între diverse spaţii de lucru sau managere de ferestre"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Configuraţia spaţiului dumneavoastră de lucru a fost actualizată cu succes,\n"
+"dar trebuie să reporniţi Sistemul de Ferestre X pentru ca \n"
+"schimbările să aibă efect.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr ""
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"Aţi putea dori să nu aplicaţi noile setări global,\n"
+"ci doar calculatorului curent.\n"
+"(Dosarul dumneavoastră de utilizator ar putea fi montat prin \n"
+"NFS sau poate staţi la un calculator mai slab, etc.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Comutatorul de spaţii de lucru este o unealtă ce permite utilizatorilor să "
+"comute uşor între diverse spaţii de lucru pe care le au instalate.\n"
+"\n"
+"Vă rugăm alegeţi spaţiul de lucru implicit pentru sistem."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Spaţii de lucru disponibile"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+msgid "System default"
+msgstr ""
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Schimbările se aplică doar afişajului curent"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Configuraţia spaţiului dumneavoastră de lucru nu poate fi actualizată; vă "
+#~ "rugăm să vă asiguraţi că pachetul switchdesk a fost corect instalat pe "
+#~ "această maşină.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "S_chimbările se aplică doar afişajului curent"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Comutator spaţii de lucru"

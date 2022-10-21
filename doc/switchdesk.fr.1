@@ -1,0 +1,46 @@
+.\" Relecture Gérard Delafond http://www.delafond.org/traducmanfr
+.TH SWITCHDESK 1 "Mon Feb 14 2000"
+.UC 4
+.SH NOM
+switchdesk \- interface en mode texte et graphique pour choisir l'environnement de bureau
+.SH SYNOPSIS
+\fBswitchdesk\fR [nom de l'environnement de bureau]
+.SH DESCRIPTION
+\fBswitchdesk\fR fournit une méthode simple pour choisir parmi les divers
+environnements de bureau disponibles sous Red Hat Linux, incluant
+GNOME, KDE, et FVWM2. Si X Window est lancé, switchdesk ouvrira une
+boîte de dialogue qui permettra à l'utilisateur de choisir entre les
+différents environnements de bureau installés sur le système. Cette boîte
+de dialogue aura l'apparence la plus proche possible de l'environnement
+de bureau actuellement utilisé. Si le nom de l'environnement de bureau
+(KDE, GNOME, XFce4, FVWM, WINDOWMAKER) est fourni en argument, ou si X
+n'est pas lancé, switchdesk peut être utilisé en ligne de commande.
+
+.PD
+.SH "CODES DE RETOUR"
+\fBswitchdesk\fR retourne 0 en cas de succès, 1 en cas d'échec.
+
+.SH FICHIERS
+.PD 0
+.TP 20
+\fI~/.Xclients, ~/.Xclients-default\fR
+Stocke l'environnement de bureau actuellement sélectionné.
+
+.PD
+
+.SH AUTEURS
+.nf
+Than Ngo <than@redhat.com>
+
+.SH TRADUCTION
+.PP
+Ce document est une traduction réalisée par Alain Portal
+<aportal AT univ-montp2 DOT fr> le 8 septembre 2004.
+.PP
+L'équipe de traduction a fait le maximum pour réaliser une adaptation
+française de qualité. La version anglaise la plus à jour de ce document est
+toujours consultable via la commande\ : «\ \fBLANG=en\ man\ 1\ switchdesk\fR\ ».
+N'hésitez pas à signaler à l'auteur ou au traducteur, selon le cas, toute
+erreur dans cette page de manuel.
+
+.fi

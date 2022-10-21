@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+# Created by Red Hat Desktop Switcher
+
+WM="startplasma-x11"
+WMPATH="/usr/bin /opt/bin /usr/local/bin /usr/X11R6/bin"
+
+for p in $WMPATH ; do
+	[ -x $p/$WM ] && exec $p/$WM
+done
+
+exit 1

@@ -1,0 +1,163 @@
+# Dutch translation of switchdesk.
+# Copyright (C) 2002, 2004, 2008 Free Software Foundation, Inc.
+#
+# Tino Meinen <a.t.meinen@chello.nl>, 2002, 2004.
+# Peter van Egdom <p.van.egdom@gmail.com>, 2004, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: switchdesk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-28 11:55+0200\n"
+"PO-Revision-Date: 2008-02-24 22:49+0100\n"
+"Last-Translator: Peter van Egdom <p.van.egdom@gmail.com>\n"
+"Language-Team: Dutch <fedora-trans-list@redhat.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../switchdesk.desktop.in.h:1 ../switchdesk.glade.h:4
+msgid "Desktop Switcher"
+msgstr "Desktopwisselaar"
+
+#: ../switchdesk.desktop.in.h:2
+msgid "Switches between different desktop environments or window managers"
+msgstr "Wisselen tussen verschillende desktopomgevingen of window managers"
+
+#: ../switchdesk.glade.h:1
+#, fuzzy
+msgid ""
+"Your desktop configuration has successfully been updated, but you must "
+"restart the X Window System for the changes to take effect."
+msgstr ""
+"Uw desktopconfiguratie is succesvol bijgewerkt, maar u moet\n"
+"het X Window Systeem herstarten om de veranderingen\n"
+"toe te passen.\n"
+
+#: ../switchdesk.glade.h:2
+msgid "OK"
+msgstr "OK"
+
+#: ../switchdesk.glade.h:3
+#, fuzzy
+msgid ""
+"You may not want your new settings to apply globally, but only to this "
+"current computer. Your home directory may be NFS mounted, or you might be "
+"sitting at a slow computer, etc."
+msgstr ""
+"U zou wellicht uw nieuwe instellingen niet globaal\n"
+"willen toepassen, maar alleen op deze machine.\n"
+"(Uw persoonlijke map zou een NFS-mount kunnen zijn, of u\n"
+"zou wellicht met een langzame computer kunnen werken, etc.)"
+
+#: ../switchdesk.glade.h:5
+#, fuzzy
+msgid ""
+"The Desktop Switcher is a tool which enables users to easily switch between "
+"various desktops that the have installed."
+msgstr ""
+"Desktopwisselaar is een hulpmiddel dat gebruikers in staat stelt om "
+"gemakkelijk tussen verschillende geïnstalleerde desktops te schakelen.\n"
+"\n"
+"Selecteer de standaard desktop voor het systeem."
+
+#: ../switchdesk.glade.h:6
+msgid "Please select the default desktop for the system."
+msgstr ""
+
+#: ../switchdesk.glade.h:7
+#, fuzzy
+msgid "Available desktops:"
+msgstr "Beschikbare desktops"
+
+#: ../switchdesk.glade.h:8
+msgid "Gnome desktop"
+msgstr ""
+
+#: ../switchdesk.glade.h:9
+msgid "Plasma"
+msgstr ""
+
+#: ../switchdesk.glade.h:10
+msgid "Xfce desktop enviroment"
+msgstr ""
+
+#: ../switchdesk.glade.h:11
+#, fuzzy
+msgid "Tab Window Manager"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:12
+#, fuzzy
+msgid "Window Maker"
+msgstr "_WindowMaker"
+
+#: ../switchdesk.glade.h:13
+#, fuzzy
+msgid "Enlightenment window manager"
+msgstr "_Enlightenment"
+
+#: ../switchdesk.glade.h:14
+msgid "F Virtual Window Manager"
+msgstr ""
+
+#: ../switchdesk.glade.h:15
+#, fuzzy
+msgid "IceWM"
+msgstr "_IceWM"
+
+#: ../switchdesk.glade.h:16
+#, fuzzy
+msgid "Fluxbox"
+msgstr "F_luxbox"
+
+#: ../switchdesk.glade.h:17
+#, fuzzy
+msgid "System default"
+msgstr "_Systeemstandaard"
+
+#: ../switchdesk.glade.h:18
+msgid "Change only applies to current display"
+msgstr "Veranderingen zijn alleen van toepassing op de huidige display"
+
+#~ msgid ""
+#~ "Your desktop configuration cannot be updated, please make sure that the "
+#~ "package switchdesk has correctly been installed on the machine.\n"
+#~ msgstr ""
+#~ "Uw desktopconfiguratie kon niet worden bijgewerkt, wees er zeker van dat "
+#~ "het pakket switchdesk op een juiste manier is geïnstalleerd op het "
+#~ "systeem.\n"
+
+#~ msgid "_Change only applies to current display"
+#~ msgstr "_Veranderingen zijn alleen van toepassing op de huidige display"
+
+#~ msgid "_FVWM"
+#~ msgstr "_FVWM"
+
+#~ msgid "_GNOME"
+#~ msgstr "_GNOME"
+
+#~ msgid "_KDE"
+#~ msgstr "_KDE"
+
+#~ msgid "_TWM"
+#~ msgstr "_TWM"
+
+#~ msgid "_XFce"
+#~ msgstr "_XFce"
+
+#~ msgid "Desktop Switching Tool"
+#~ msgstr "Desktopwisselaar"
+
+#~ msgid "     OK     "
+#~ msgstr "     OK     "
+
+#~ msgid "Current display is "
+#~ msgstr "Huidige display is"
+
+#~ msgid "Revert to user settings"
+#~ msgstr "Gebruikersinstellingen terughalen"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuleren"
